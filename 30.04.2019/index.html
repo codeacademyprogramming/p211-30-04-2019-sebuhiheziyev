@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Samir</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="form-holder">
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="firstname">Firstname</label>
+            <input class="form-input" type="text" id="firstname" />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Lastname</label>
+            <input class="form-input" type="text" id="lastname" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-input" type="email" id="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-input" type="password" id="password" />
+          </div>
+
+          <div class="form-group">
+            <label for="conpassword">Confirm Password</label>
+            <input class="form-input" type="password" id="conpassword" />
+          </div>
+
+          <div class="form-group">
+            <label for="date">Birthdate</label>
+            <input type="date" id="date" class="form-input" />
+          </div>
+
+          <div class="form-group">
+            <label for="time">Time</label>
+            <input type="time" id="time" class="form-input" />
+          </div>
+
+          <div class="form-group">
+            <label for="favColor">Color</label>
+            <input type="color" id="favColor" class="form-input" />
+          </div>
+
+          <div class="form-group">
+            <label>
+              <input name="gender" value="male" type="radio" />
+              Male
+            </label>
+            <label>
+              <input name="gender" value="female" type="radio" />
+              Female
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="">
+              <input type="checkbox" value="AZ" name="languages" />
+              Azerbaijani
+            </label>
+            <label for="">
+              <input type="checkbox" value="EN" name="languages" />
+              English
+            </label>
+            <label for="">
+              <input type="checkbox" value="RU" name="languages" />
+              Russian
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="profile">Profile image</label>
+            <input
+              multiple
+              accept="application/pdf"
+              id="profile"
+              type="file"
+              class="form-input"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" class="form-input">
+              <option>Select country of origin</option>
+              <option>Azerbaycan</option>
+              <option>Turkiye</option>
+              <option>Gurcustan</option>
+              <option>Almaniya</option>
+              <option>Bolqaristan</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-input"
+              id="message"
+              cols="30"
+              rows="15"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Submit form" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
